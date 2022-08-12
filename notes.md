@@ -1,6 +1,6 @@
 # [neomura/game-connector](./readme.md)/notes
 
-The connector links the edge of a [1.6mm thick](https://oshpark.com/shared_projects/KrFAoVRl) PCB containing a game (ROM, CPU, RAM, etc.) to a hosting console or arcade cabinet's power/video/audio/
+The connector links the edge of a [1.6mm thick](https://oshpark.com/shared_projects/KrFAoVRl) PCB containing a game (ROM, CPU, RAM, etc.) to a hosting console or arcade cabinet's power/video/audio/inputs.
 
 There are [56 contacts (28 per side)](https://wiki.neogeodev.org/index.php?title=JAMMA_connector_pinout#JAMMA_pinout), mapping as follows, from left to right, looking from the component side:
 
@@ -34,6 +34,8 @@ There are [56 contacts (28 per side)](https://wiki.neogeodev.org/index.php?title
 | d | P2_E         | 26 | P1_E           |
 | e | GND          | 27 | GND            |
 | f | GND          | 28 | GND            |
+
+Contact spacing is 3.96mm.
 
 ## Power
 
